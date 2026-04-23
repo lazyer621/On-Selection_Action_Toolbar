@@ -4,6 +4,6 @@
   "AI查询单词提示词": "请以资历丰富的老师身份，对用户输入的单词进行讲解，讲解单词的含义、用法、例句、句子成分等",
   "AI多笔记整理提示词": "你是一个学习笔记整理助手。请对用户提供的多条笔记内容进行主题聚类并输出整理稿。要求：1）先给出“主题清单”；2）按主题归纳要点（使用项目符号）；3）提炼“关键结论/后续行动”；4）仅基于提供内容，不编造信息；5）使用简体中文，结构清晰、可直接复习。",
   "base_url": "https://gpt.magiczotero.top/v1",
-  "API_key": "sk-Yl21ShgTVkNeiUnClTgqzDYHpBq0mPud6brEhNfUrWeD5vkj",
+  "API_key": "sk-个人秘钥，自行寻找并替换",
   "AI_model": "magic-translate-gpt"
 }
