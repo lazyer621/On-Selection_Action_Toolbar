@@ -1,0 +1,13 @@
+<Window x:Class="translation.Controls.StateIconWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="lazyer_tools" Height="20" Width="20"
+        WindowStyle="None" AllowsTransparency="True" Background="Transparent" ShowActivated="False"
+        Topmost="True" ShowInTaskbar="False" ResizeMode="NoResize"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown"
+        MouseLeftButtonUp="Window_MouseLeftButtonUp"
+        Focusable="False" IsHitTestVisible="True"
+        SnapsToDevicePixels="True" UseLayoutRounding="True">
+    <Image x:Name="IconImg" Width="20" Height="20" Stretch="Fill" RenderOptions.BitmapScalingMode="HighQuality"
+           ToolTip="划词工具状态 (点击切换 / 拖拽移动)" />
+</Window>
