@@ -175,13 +175,3 @@ AI 问答  ·  保存结果
 工具获取方式：公众号回复【20260420】
 
 ![Image](images/img_017.png)![Image](images/img_018.jpeg)
-
-**关注**
-
-**小柳爱授渔**
-
-![Image](images/img_019.png)
-
-**点击卡片 关注一下**
-
-![Image](images/img_020.png)
