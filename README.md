@@ -175,3 +175,5 @@ AI 问答  ·  保存结果
 工具获取方式：公众号回复【20260420】
 
 ![Image](images/img_018.jpeg)
+
+[软件下载地址：https://github.com/lazyer621/On-Selection_Action_Toolbar/releases/tag/On-Selection_Action_Toolbar](https://github.com/lazyer621/On-Selection_Action_Toolbar/releases/tag/On-Selection_Action_Toolbar)
