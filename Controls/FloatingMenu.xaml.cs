@@ -178,7 +178,7 @@ namespace translation.Controls
             path = System.Text.RegularExpressions.Regex.Replace(path, @"\x1B\[[^a-zA-Z]*[a-zA-Z]", "");
 
           
-            if (path.StartsWith("file:
+            if (path.StartsWith("file://", StringComparison.OrdinalIgnoreCase) ||
                 path.StartsWith("file:\\\\", StringComparison.OrdinalIgnoreCase))
             {
                 if (Uri.TryCreate(path, UriKind.Absolute, out Uri uri) && uri.IsFile)
@@ -577,7 +577,7 @@ namespace translation.Controls
                 var match = System.Text.RegularExpressions.Regex.Match(
                     url, @"([a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(/\S*)?)");
                 if (match.Success) url = match.Value;
-                if (!url.StartsWith("http:
+                if (!url.StartsWith("http://", StringComparison.OrdinalIgnoreCase) &&
                     !url.StartsWith("https://", StringComparison.OrdinalIgnoreCase))
                     url = "https://" + url;
                 if (Uri.IsWellFormedUriString(url, UriKind.Absolute))
